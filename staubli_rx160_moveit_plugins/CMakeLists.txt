@@ -4,7 +4,7 @@ project(staubli_rx160_moveit_plugins)
 find_package(catkin REQUIRED COMPONENTS
   moveit_core
   pluginlib
-  roscpp
+  rclcpp
   tf_conversions
 )
 
@@ -22,7 +22,7 @@ catkin_package(
   CATKIN_DEPENDS
     moveit_core
     pluginlib
-    roscpp
+    rclcpp
     tf_conversions
 )
 
